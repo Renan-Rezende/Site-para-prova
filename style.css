@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 70vw;
+  background-color: rgb(255, 239, 210);
+  border-radius: 8px;
+  border: solid black 3px;
+}
+
+.nav {
+  padding: 1.5vw;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: brown;
+  color: white;
+  font-size: large;
+  border-radius: 2px;
+}
+
+header {
+  height: 30vw;
+  background-color: rgb(255, 239, 210);
+  border-radius: 8px;
+}
+
+.section {
+  display: flex;
+  background-color: rgb(255, 214, 138);
+  height: 55vw;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.text {
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-right: 12px;
+}
+
+.p1 {
+  font-size: 45px;
+}
+
+.paragrafo {
+  font-size: 21px;
+}
+
+.images {
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 12px;
+  margin-bottom: 20px;
+  margin-right: 12px;
+}
+
+.box-boss {
+  width: 100%;
+  display: flex;
+  height: 17.5vw;
+}
+
+.box-child {
+  width: 50%;
+  border: solid brown 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 7px;
+}
+
+.imagem1 {
+  width: 100%;
+  height: 75%;
+}
+.sub-titulo {
+  width: 100%;
+  height: 25%;
+  background-color: brown;
+}
+
+footer {
+  margin-top: 2vw;
+  padding: 1.5vw;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: brown;
+  color: white;
+  font-size: large;
+  border-radius: 2px;
+}
